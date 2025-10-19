@@ -1,10 +1,10 @@
-package atv;
+package fag.objeto;
 
-public class ProdutoEstoque {
+public class ProdutosEstoque {
     private String nome;
     private int quantidade;
 
-    public ProdutoEstoque(String nome, int quantidade){
+    public ProdutosEstoque(String nome, int quantidade){
         setNome(nome);
         setQtd(quantidade);
     }

@@ -1,4 +1,4 @@
-package atv;
+package fag.objeto;
 
 public class Temperatura {
     private double c;

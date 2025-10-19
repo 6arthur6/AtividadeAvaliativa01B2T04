@@ -1,4 +1,4 @@
-package atv;
+package fag.objeto;
 public class BicicletaAlugada {
     private int horas;
     private double valorHora;

@@ -1,5 +1,4 @@
-package atv;
-
+package fag.objeto;
 public class Musica {
     private String titulo;
     private int duracao;

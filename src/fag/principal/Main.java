@@ -1,4 +1,16 @@
-package atv;
+package fag.principal;
+
+import fag.objeto.BicicletaAlugada;
+import fag.objeto.ContaBancaria;
+import fag.objeto.ContaLuz;
+import fag.objeto.Filme;
+import fag.objeto.Fucionario;
+import fag.objeto.Musica;
+import fag.objeto.Pessoa;
+import fag.objeto.ProdutosEstoque;
+import fag.objeto.Retangulo;
+import fag.objeto.Temperatura;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -47,7 +59,7 @@ public class Main {
         System.out.println("Valor total do aluguel: R$ " + aluguel.calcularValor());
 
         System.out.println("\n##### 9. PRODUTO ESTOCADO #####");
-        ProdutoEstoque prod = new ProdutoEstoque("Teclado Dell", 10);
+        ProdutosEstoque prod = new ProdutosEstoque("Teclado Dell", 10);
         prod.adicionarEstoque(5);
         prod.removerEstoque(2);
         System.out.println("Quantidade final: " + prod.getQtd());

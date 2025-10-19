@@ -1,5 +1,4 @@
-package atv;
-
+package fag.objeto;
 public class ContaLuz {
     private double consumoKvh;
     private double valorKvh;

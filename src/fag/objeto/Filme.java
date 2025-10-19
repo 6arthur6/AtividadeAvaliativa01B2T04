@@ -1,5 +1,4 @@
-package atv;
-
+package fag.objeto;
 public class Filme {
         private String titulo;
         private double avaliacao;
